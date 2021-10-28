@@ -5,7 +5,7 @@
 #header h1 {text-align:center;}
 
 /* 
-display:flex 는 자시block을 가로로 배열한다.
+display:flex 는 자기block을 가로로 배열한다.
 justify-content:center; 는 display:flex로 가로 배열된 박스들을 가운데로 오게한다.
 */
 #header nav>ul {display:flex;}
