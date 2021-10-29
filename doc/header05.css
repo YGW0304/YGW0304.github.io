@@ -1,5 +1,5 @@
 #wrap {}
-
+#hearder .container {position:fixed;text-align:center;}
 #header {position:fixed;top:0;left:0;line-height:100px;width:100%;color:#fff;transition:1s;z-index:1;}
 #header:hover {background:#fff;color:#333;border-bottom:1px solid #ddd;}
 #header.on {background:#fff;line-height:80px;color:#333;border-bottom:1px solid #ddd;}

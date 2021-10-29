@@ -8,7 +8,7 @@
 #header nav>ul>li>a {display:block;position:relative;padding:0 30px;}
 #header nav>ul>li~li>a:after {content:"";display:block;width:1px;height:12px;background:#333;position:absolute;top:50%;left:0;transform:translateY(-50%)}
 
-#header .right {font-size:20px;margin-left:40px;}
+#header .right {font-size:30px;margin-left:40px;}
 
 
 #main_visual {height:500px;background:url(../lib/base/main_visual01.jpg) no-repeat center center/cover;text-align:center;color:#fff;padding:200px 0 0 0;}
