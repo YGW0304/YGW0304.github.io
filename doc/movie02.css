@@ -15,7 +15,7 @@
 #visual .container p {margin-bottom:20px;}
 #visual i {font-size:20px;padding:10px;background:#333;border-radius:5px;margin:0 5px;}
 
-
+/*곰돌이--------*/
 
 
 #movie01 {padding:150px 0;}
@@ -29,6 +29,8 @@
 #movie01 h2 {font-size:30px;font-weight:500;margin:20px 0;}
 #movie01 p {font-size:14px;font-weight:100;margin-bottom:30px;}
 
+
+/*ㅗㅓㅗㅓㅗㅓㅗ-------------------*/
 #movie02 {padding:150px 0;background:#f7f7f7;}
 #movie02 .container {display:flex;width:1200px;margin:0 auto;}
 #movie02 .container figure {flex:1;padding:0 15px;}
