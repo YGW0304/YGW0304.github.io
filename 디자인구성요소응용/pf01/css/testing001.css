@@ -1,0 +1,92 @@
+#wrap {}
+
+/* 탑 배너 */
+#top_banner {background:#333;color:#fff;}
+#top_banner .container {width:1200px;margin:0 auto;padding:15px 15px;position:relative;}
+#top_banner .container i {position:absolute;top:8px;right:15px;padding:7px;background:#555;}
+
+#top_banner .container a{display:block;border:1px solid #fff;border-radius: 0.25rem; ;position:absolute;top:8px;right:60px;padding:7px;margin:0 auto;width:7.5rem;text-align: center;}
+
+
+/* 헤더 */
+#header h1 {padding:100px 0;text-align: center;}
+#header h1 img {width:600px;}
+#header .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto;line-height:100px;}
+#header nav {}
+#header nav>ul {display:flex;}
+#header nav>ul>li>a {display:block;position:relative;padding:0 16px;line-height:100px;}
+#header nav>ul>li{color:#4a92fe;}
+#header nav>ul>li~li {color:#000;}
+#header .right {font-size:18px;color:#9d9d9d;}
+
+/*메인비주얼 */
+#main_visual {position:relative;}
+#main_visual figure {padding:0 15px;}
+#main_visual figure .case {height:600px;transform:scale(0.9);filter:grayscale(1);transition:1s;}
+#main_visual figure .case.on {height:600px;filter:grayscale(0);transform:scale(1)}
+#main_visual .itm01 .case {background:url(../img/main01.jpg) no-repeat center center/cover;}
+#main_visual .itm02 .case {background:url(../img/main02.jpg) no-repeat center center/cover;}
+#main_visual .itm03 .case {background:url(../img/main03.jpg) no-repeat center center/cover;}
+#main_visual .itm04 .case {background:url(../img/main04.jpg) no-repeat center center/cover;}
+#main_visual .container {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:1200px;padding:0 15px;color:#fff;margin:0 auto;}
+#main_visual .btn i {position:absolute;top:52%;left:50%;transform:translate(-50%,-50%);font-size:70px;padding:10px;color: #fff;}
+#main_visual .btn i.xi-angle-left {margin-left:-585px;}
+#main_visual .btn i.xi-angle-right {margin-left:585px;}
+
+
+/* 섹션01 */
+#content01 {position: relative;padding:150px 0;text-align:center;}
+#content01 h2 {position:relative;border-top:3px solid #333;border-left:3px solid #333;font-size:30px;font-weight:300;letter-spacing:0.5em;margin-bottom:15px;width:1170px;margin: 0 auto;line-height:40px;border-radius:30px 0 0 0;text-align:left;padding:30px;}
+#content01 a{position:absolute;right:0;top:30px;font-size:15px;letter-spacing:0;}
+#content01 .container {display:flex;width:1200px;margin:0 auto;}
+#content01 .container figure {padding:100px 15px;}
+#content01 .container figure img {max-width:100%;top:200px;right:300px;width:600px;height:300px;border-radius:50%;}
+#content01 .container figure strong {line-height:80px;text-align:center;color:#3a3a3a;font-size:18px;}
+
+
+/* 섹션02 - img 3개 3개 배열하기 flex-wrap/size 50% -width:50%, 33.333333...*/
+#content02 {position: relative;padding:150px 0;text-align:center;}
+#content02 h2 {position:relative;border-top:3px solid #333;border-left:3px solid #333;font-size:30px;font-weight:300;letter-spacing:0.5em;margin-bottom:15px;width:1170px;margin: 0 auto;line-height:40px;border-radius:30px 0 0 0;text-align:left;padding:30px;}
+#content02 a{position:absolute;right:0;top:30px;font-size:15px;letter-spacing:0;}
+#content02 .container {display:flex;flex-wrap:wrap;width:1200px;margin:0 auto;margin-top:100px;}
+#content02 .container figure {flex:33.333333%;padding:15PX 15PX 15px 15px;}
+#content02 .container figure img {max-width:100%;}
+
+/* 섹션03 */
+#content03 {background:#f3f3f3;color:#3d3d3d;padding:80px 0;text-align:center;}
+#content03 h2 {font-size: 30px;color:#3d3d3d;line-height:100px;}
+#content03 .p {font-size:24px;color:#000000;line-height:80px;}
+#content03 .link {line-height:100px;}
+
+/* 섹션04 */
+#content04 {position: relative;padding:150px 0;text-align:center;}
+#content04 h2 {position:relative;border-top:3px solid #333;border-left:3px solid #333;font-size:30px;font-weight:300;letter-spacing:0.5em;margin-bottom:15px;width:1170px;margin: 0 auto;line-height:40px;border-radius:30px 0 0 0;text-align:left;padding:30px;}
+#content04 a{position:absolute;right:0;top:30px;font-size:15px;letter-spacing:0;}
+#content04 .container {display:flex;width:1200px;margin:0 auto;}
+#content04 .container figure {flex:1;padding:110PX 15px;}
+#content04 .container figure img {max-width:100%;}
+
+/* 섹션05 */
+#content05 {position: relative;padding:150px 0;text-align:center;}
+#content05 h2 {position:relative;border-top:3px solid #333;border-left:3px solid #333;font-size:30px;font-weight:300;letter-spacing:0.5em;margin-bottom:15px;width:1170px;margin: 0 auto;line-height:40px;border-radius:30px 0 0 0;text-align:left;padding:30px;}
+#content05 a{position:absolute;right:0;top:30px;font-size:15px;letter-spacing:0;}
+#content05 .container {display:flex;flex-wrap:wrap;width:1200px;margin:0 auto;margin-top:100px;}
+#content05 .container figure {flex:25%;padding:15PX 15PX 15px 15px;}
+#content05 .container figure img {max-width:100%;top:200px;right:300px;width:600px;height:300px;}
+
+
+/* 섹션06 */
+#content06 {position: relative;;padding:150px 0;text-align:center;}
+
+#content06 h2 {font-size:30px;font-weight:300;letter-spacing:0.5em;margin-bottom:15px;}
+
+#content06 .container {display:flex;width:1200px;margin:0 auto;}
+#content06 .container figure {flex:1;padding:110PX 15px;}
+#content06 .container figure img {max-width:100%;}
+
+
+/* 푸터 */
+#footer {padding:200px 0 200px 0;background:#f5f5f5;font-size:18px;color:#1d1d1d;padding:30px;border-top:1px solid #ddd;margin:0 auto;margin:0 auto;}
+#footer .container {width:1200px;margin:0 auto;padding:0 15px;}
+#footer ul {font-size:14px;line-height:30px;margin-bottom:0;}
+#footer i {font-size:30px;padding:10px;background:#ddd;border-radius:50%;margin-top:30px;}
