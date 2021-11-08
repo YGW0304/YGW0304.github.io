@@ -1,14 +1,14 @@
 body {color:#333;}
 #wrap {}
 
-
+/* 탑 배너 */
 #top_banner {background:#f7f7f7;}
 #top_banner .container {position:relative;;width:1200px;margin:0 auto;padding:25px 15px;}
 #top_banner h2 {font-size:24px;font-weight:100;letter-spacing:0.04em;margin-bottom:10px;}
 #top_banner p {font-weight:300;letter-spacing:-0.025em;}
 #top_banner i {position:absolute;top:25px;right:15px;font-size:24px;}
 
-
+/* 헤더 */
 #header {}
 #header .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto;padding:0 15px;line-height:100px;}
 
@@ -26,6 +26,7 @@ body {color:#333;}
 #header .header_search button {background:none;border:none;outline:none;padding:5px 0;}
 #header .header_search i {font-size:20px;color:#fff;padding:10px;background:#333;border-radius:50%;}
 
+/* 메인비주얼 */
 #main_visual {position:relative;}
 #main_visual .main_slider figure {height:600px;background:#333;}
 #main_visual .main_slider .itm01 {background:url(../lib/base/main_visual01.jpg) no-repeat center center/cover;}
@@ -38,7 +39,7 @@ body {color:#333;}
 #main_visual .slogan p {font-weight:300;}
 #main_visual .slogan a {display:block;width:150px;height:35px;line-height:30px;background:#333;text-align:center;margin:20px auto;}
 
-
+/* 섹션01 */
 #product01 {padding:100px 0;text-align:center;}
 #product01 h2 {font-size:24px;font-weight:500;margin-bottom:10px;}
 #product01 p {font-weight:300;letter-spacing:-0.025em;margin-bottom:30px;}
@@ -112,6 +113,22 @@ body {color:#333;}
 #product24  .des p {font-weight:300;letter-spacing:-0.025em;margin-bottom:20px;line-height:24px;}
 #product04  .des a i {font-size:20px;padding:5px;background:#f35500;color:#fff;border-radius:50% 0;vertical-align:middle;margin-left:10px;transition:0.4s;}
 #product04  .des a:hover i {border-radius:50% 50%;}
+
+
+
+#tab {padding:100px 0;background:#f7f7f7;}
+#tab .container {width:1200px;margin:0 auto;padding:0 15px;}
+#tab .tab_menu {display:flex;border-bottom:1px solid #ddd;margin-bottom:10px;}
+#tab .tab_menu li a {display:block;line-height:40px;padding:0 50px;background:#369;color:#fff;text-align:center;}
+#tab .tab_menu li~li {border-left:1px solid #f7f7f7;}
+
+
+#tab .tab_con {position:relative;height:300px;}
+#tab .tab_con .tab_slider {position:absolute;top:0;left:0;width:100%;visibility:hidden;}
+#tab .tab_con .tab_slider.on {visibility:visible;}
+#tab .tab_con figure {padding:0 15px;}
+#tab .tab_con figure img {width:100%;}
+
 
 
 #footer {background:#333;color:#f4f4f4;font-weight:300;}
