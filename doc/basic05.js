@@ -45,47 +45,9 @@ $('.pic').slick({
 });
 
 
-$('.pr_slider02').slick({
-    arrows:false,
-    slidesToShow:3,
-    autoplay:true,
-    autoplaySpeed:2000,
-    pauseOnHover:false,
-    pauseOnFocus:false,  
-});
 
+    
 
-$('#product04 i.xi-arrow-left').on('click',function(){
-    $('.pr_slider02').slick('slickPrev');
-});
-$('#product04 i.xi-arrow-right').on('click',function(){
-    $('.pr_slider02').slick('slickNext');
-});
-
-
-$('#link select').on('change',function(){
-    var link=$(this).val();
-    if(link)window.open(link)
-});
-
-
-
-$('.tab_menu li').on('click',function(){
-    var idx=$(this).index();
-    // $('.tab_con>div').eq(idx).show().siblings().hide();
-    $('.tab_con>div').eq(idx).addClass('on').siblings().removeClass('on');
-});
-
-
-
-$('.tab_slider').slick({
-    arrows:false,
-    autoplay:true,
-    slidesToShow:4,
-    centerMode:true,
-
-
-});
 
 
 
