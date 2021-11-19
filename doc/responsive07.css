@@ -54,7 +54,7 @@ body {font-size:1.6rem;}
     .header h1 {position:relative;z-index:1000;}
     .header h1 img {width:20rem;}
     .header .container {display:flex;justify-content:space-between;}
-
+    .header i {display:none;}
 
   
 
