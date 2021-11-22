@@ -33,6 +33,10 @@ $('.pr_slider').on('afterChange', function(e,s,c){
 })
 
 
+
+
+
+
 $('.pic').slick({
     arrows:false,
     autoplay:true,
