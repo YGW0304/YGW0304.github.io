@@ -1,0 +1,105 @@
+#wrap {}
+/* 헤더 */
+#header {}
+#header .container {display:flex;width:1200px;margin:0 auto;padding:0 15px;}
+#header nav {margin:auto;}
+#header nav>ul {display:flex;}
+#header nav>ul>li>a {display:block;padding:0 40px;line-height:100px;}
+#header nav>ul>li {position:relative;font-size:14px;line-height:30px;}
+#header nav>ul ul {position:absolute;top:100px;left:0;width:100%;height:0;padding-top:10px;overflow:hidden;transition:0.4s;z-index:999;}
+#header nav:hover>ul ul {height:250px;}
+#header nav:after {content:"";display:block;width:100%;height:0;background:#fff;border-top:1px solid #ddd;position:absolute;top:100px;left:0;transition:0.4s;z-index:888;}
+#header nav:hover:after {height:250px;}
+#header nav>ul ul a {display:block;line-height:30px;text-align:center;}
+#header i {margin-left:30px;line-height:100px;}
+#header h1 img {width:200px;}
+
+
+/* 메인비주얼 */
+#main_visual {position:relative;height:600px;padding:400px 0 0 0;}
+#main_visual .container {width:1200px;margin:0 auto;color:#fff;padding:0 15px;text-align:center;font-size:14px;font-weight:100;text-transform: uppercase;line-height:2;}
+#main_visual i {font-size:20px;padding:10px;background:#002c5f;border-radius:5px;margin:0 5px;}
+#main_visual a {display: block; width: 150px;height: 35px; line-height: 30px;background:#002c5f;text-align: center;margin: 10px auto;border-radius:5px}
+
+
+/* 섹션01 */
+#product01 {padding:200px 0;text-align:center;}
+#product01 h2 {font-size:24px;font-weight:500;margin-bottom:10px;}
+#product01 p {font-weight:300;letter-spacing:-0.025em;margin-bottom:30px;}
+#product01 .container {display:flex;width:1200px;margin:0 auto;}
+#product01 img {max-width:100%;}
+#product01 figure {flex:1;padding:0 15px;}
+#product01 figure strong {display:block;margin:10px 0;}
+#product01 figure span {display:block;margin:10px 0;}
+#product01 figure span.price {color:#002c5f;}
+
+#product01 .case {overflow:hidden;}
+#product01 figure img {transition:0.4s;}
+#product01 figure:hover img {transform:scale(1.2);}
+#product01 .spec a {display:inline-block;line-height:35px;background:#ddd;text-align:center;margin:20px auto;padding:0 20px;}
+
+
+/* 메인배너 수정필요*/
+#main_banner {padding:150px 0;background:url(../img/m_banner03.jpg) no-repeat center center/cover;background-attachment: fixed;filter:grayscale(1);text-align:center;}
+#main_banner h2 {font-size:24px;font-weight:500;margin-bottom:20px;color:#f4f4f4;}
+#main_banner p {font-weight:300;letter-spacing:-0.025em;margin-bottom:20px;color:#f4f4f4;}
+#main_banner figure {flex:1;padding:15px 15px;}
+#main_banner .tab .con {display:inline-block;width:300px;color:#f4f4f4;border:1px solid #fff;position:relative;margin:0 auto;}
+#main_banner .tab .con:before {content:"";display:block;width:0;height:100%;background:#999;position:absolute;top:0;right:0;transition:0.5s;z-index:-1;}
+#main_banner .tab .con:hover:before {width:100%;}
+
+
+/* 섹션02 */
+#product02 {padding:200px 0;text-align:center;background:#f2f2f2;}
+#product02 .pr_slider {width:1200px;margin:0 auto;}
+#product02 .pr_slider figure {padding:0 15px;}
+#product02  h2 {font-size:24px;font-weight:500;margin-bottom:60px;color:#333333;}
+#product02  figure strong {display:block;padding:30px 0;}
+#product02  figure a {display:inline-block;padding:5px 30px 8px 30px;background:#333333;color:#f2f2f2;font-size:13px;font-weight:100;}
+
+
+
+
+/* 푸터 */
+/* #footer {background:#333;color:#f4f4f4;}
+#footer .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto;line-height:100px;padding:0 15px;}
+#footer .container figure {flex:1;padding:0 15px;}
+
+#footer .container_link {display:flex;}
+
+#footer .container_link li a {display:block;}
+#footer .container_link li~li:before {content:":";position:absolute;top:0;left:0;}
+#footer .container_link li:first-child a {padding:0 20px 0 0;}
+#footer hr {border:none;border-top:1px solid #666;}
+#footer .sns {font-size:18px;}
+#footer .sns .img {display:flex;justify-content:center;}
+#footer select {width:200px;background:#333;padding:5px 15px;outline:none;}
+#footer .link select {background:#333;padding:3px;outline:none;} */
+
+/*푸터*/
+#footer {background:#333;color:#f4f4f4;display:flex;justify-content:space-between;width:1200px;margin:0 auto;padding:100px 0 100px 0;}
+#footer .f_top {border-bottom:1px solid #555;}
+#footer .f_top .f_logo {width:80px;}
+#footer .f_top ul {display:flex;}
+#footer .f_top ul a {padding:0 20px;}
+#footer .f_top ul>li~li a:after {content:"";display:block;width:1px;height:12px;background:#999;position:absolute;top:50%;left:0;transform:translateY(-50%);}
+
+
+#footer .container {justify-content:space-between;}
+#footer i {font-size:30px;padding:100px 0;}
+#footer .link select {padding:0 0 0 30px;margin-top:60px;background:#333;padding:3px;outline:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
