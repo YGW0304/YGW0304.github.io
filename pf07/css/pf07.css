@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html {font-size:20px;}
+body {font-size:0.8rem;}
+#wrap {min-width:95rem;}
+
+
+/* logo */
+.left_logo {position:fixed;top:0;left:0;width:100px;text-align:right;padding-top:100px;}
+.bar {border-right:10px solid #333;height:calc(100vh - 150px);margin-top:-10px;}
+.left_logo h1>a {width:100%;height:100%;position: absolute;overflow: hidden;text-indent: -999px;font-size: 1px;z-index: 1;}
+
+/* main-header */
+.main_right {margin-left:100px;padding:0 50px;}
+
+#hd {display:flex;justify-content:space-between;line-height:100px;height:105px;border-bottom:5px solid #333333;margin-bottom:100px;}
+/* gnb */
+#hd .gnb-menu {display:flex;}
+#hd .gnb-menu>li>a {display:block;padding:0 20px;}
+#hd .gnb-menu>li>a:hover {border-bottom:5px solid #f00;}
+#hd .gnb-submenu {display:none;}
+
+
+
+/* main_visual */
+#main_visual {position:relative;}
+#main_visual figure {height:600px;}
+#main_visual .m01 {background:url(../img/BNR_202001090649241010.jpg) no-repeat center center/cover;}
+#main_visual .m02 {background:url(../img/BNR_202003020204251510.jpg) no-repeat center center/cover;}
+#main_visual .container {position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);width:1200px;padding:0 15px;color:#fff;text-align:center;z-index:999;}
+#main_visual h2 {font-size:60px;font-weight:500;line-height:2.6;}
+#main_visual p {font-size:30px;font-weight:300;margin-bottom:8rem;}
+
+
+/* board;section01 */
+#board {background:#ffff;}
+#board .sbar {border:5px solid #333;margin-top:15px;}
+#board .container {display:flex;}
+#board .container .left {flex:5;}
+#board .container .right {flex:5;}
+
+/* board_left */
+#board .left  {padding:4rem 4rem;position:relative;overflow:hidden;cursor:pointer;}
+#board .left li:hover  {background:rgb(243, 240, 240);background-blend-mode:soft-light;}
+#board .left  h3 {font-family: 'Montserrat', sans-serif;font-size:2rem;font-weight:700;}
+#board .left h3>i {float:left;font-size:0.75rem;font-weight:300;border:1px solid var(--dd);height:1.6rem;border-radius:0.8rem;line-height:1.5rem;padding:0 2rem;}
+#board .left h3 a {display:block;float:right;font-size:0.75rem;font-weight:300;border:1px solid var(--dd);height:1.6rem;border-radius:0.8rem;line-height:1.5rem;padding:0 2rem;}
+/* li안에 박스를 만들고 패딩으로 처리해야한다. */
+.Newsroom {display:grid;grid-template-columns:1fr 1fr;gap:5px;}
+#board .left li  {border:1px solid #888;margin-top:5%;padding:1rem;}
+#board .left dt {position:relative;line-height:3.2rem;font-size: 20px;}
+#board .left strong {border:1px solid #dc143c ;color:#fff;background:#dc143c ;display:inline-block;width:30px;height:30px;text-align:center;line-height:1.5rem;font-size:1rem;}
+/* 날짜들 일정하게 배열하기 */
+#board .left dl .news_date {margin-top:30px;color:#666;}
+
+
+
+/* board_right */
+#board .right {padding:4rem 3rem;}
+#board .right h3 {font-family: 'Montserrat', sans-serif;font-size:2rem;font-weight:700;}
+#board .right h3 a {display:block;float:right;font-size:0.75rem;font-weight:300;border:1px solid var(--dd);height:1.6rem;border-radius:0.8rem;line-height:1.5rem;padding:0 2rem;}
+#board .right strong {display:inline-block;width:80px;text-align:center;line-height:1.3;border:1px solid #dc143c;color:#dc143c;font-weight:500;margin-right:0.8rem;}
+#board .right .list li {border-bottom:1px solid #888;padding:0.2rem;cursor:pointer;}
+#board .right .list li:hover {color:#dc143c;text-decoration:underline;}
+#board .right .list li a {display:block;line-height:3.3rem;}
+#board .right .list li span {float:right;color:#777;padding-right:2rem;}
+
+
+/*magazine;section02  */
+.magazineWrap {display:flex;flex-wrap:wrap;width:100%;table-layout:fixed;}
+.magazineWrap figure {cursor:pointer;}
+.magazineWrap .box01 {display:flex;float:left;padding:0 0 0 1%;height:auto;width:33.3333%;text-align:center;vertical-align:top;}
+ .m_box {background:#344e71;color:#fff;width:50%;height:100%;text-align:center;} 
+.magazineWrap .title {font-size:23px;line-height:27px;padding:5px 0;font-family: 'Montserrat', sans-serif;font-weight:bold;}
+.magazineWrap .vol {padding:10px 0 0;}
+.magazineWrap .ma_name {font-size: 19px;}
+
+
+.magazineWrap .n_box {background:#4261a1;color:#fff;width:50%;height:100%;text-align:center;}
+.magazineWrap .n_box .title{font-size:23px;line-height:27px;padding:5px 0;font-family: 'Montserrat', sans-serif;font-weight:bold;}
+.magazineWrap .n_box .vol {padding:10px 0 0;}
+.magazineWrap .n_box .n_name {font-size: 19px;}
+.magazineWrap .box02 {padding:2rem;margin:0 auto;background:#42a145;color:#fff;text-align:center;}
+.magazineWrap .box02 .title{padding:0 40px 0 40px;font-size:23px;line-height:27px;padding:5px 0;font-family: 'Montserrat', sans-serif;font-weight:bold;}
+
+.box03 {padding:0;margin:1rem auto;color:#fff;text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
