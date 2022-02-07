@@ -66,12 +66,17 @@ $('.gnb>ul>li>a').on('click',function(){
         $('#se01 .slide_bar>span').css({left:c*100})
     });
 
+
     // $('.se_slider02').slick({
-    //     arrows:false,
-    //     slidesToShow:1,
-    //     slidesToScroll:4,
     //     autoplay:true,
-    //     pauseOnFocus:false,
+    //     autoplaySpeed:3000,
+    //     slidesToShow: 1,
+    //     slidesToScroll:3,
+    //     dots:false,
+    //     focusOnSelect:true,
+    //     infinite:true,
+    //     prevArrow:'.prev',
+    //     nextArrow:'.next'
     // });
 
 
