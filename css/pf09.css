@@ -32,7 +32,7 @@ body {font-size:0.8rem;color:var(--dc);}
 .section {background:var(--lc) no-repeat right bottom/cover;background-attachment:fixed;position:relative;}
 .section::before {content:"";display:block;position:absolute;top:0;left:0;background:#000;opacity:1;}
 .section img {max-width:100%;}
-.section .mockup {background:url(../img/mockup.png) no-repeat center top/100%;padding:7.5% 10% 8% 10%;}
+.section .mockup {background:url(/img/mockup.png) no-repeat center top/100%;padding:7.5% 10% 8% 10%;}
 .container {position:relative;display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;align-items:center;width:70rem;margin:0 auto;z-index:888;}
 .section .mockup figure {position:relative;padding-bottom:56.25%;overflow:hidden;}
 .section .mockup figure img {position:absolute;top:0;left:0;width:100%;transition:1s;cursor: pointer;}
@@ -210,7 +210,7 @@ body {font-size:0.8rem;color:var(--dc);}
     .section {background:var(--lc);background-attachment:fixed;position:relative;}
     .section::before {content:"";display:block;position:absolute;top:0;left:0;background:#000;opacity:1;}
     .section img {max-width:auto;}
-    .section .mockup {order:-1;background:url(../img/mockup.png) no-repeat center top/100%;padding:7.5% 10% 8% 10%;width:100%;margin-top:50px;}
+    .section .mockup {order:-1;background:url(/img/mockup.png) no-repeat center top/100%;padding:7.5% 10% 8% 10%;width:100%;margin-top:50px;}
     .container {position:relative;display:flex;flex-flow:column wrap;grid-template-columns:repeat(1,1fr);gap:0;align-items:center;width:300px;margin:0 auto;z-index:888;}
     .section .mockup figure {position:relative;padding-bottom:56.25%;overflow:hidden;}
     .section .mockup figure img {position:absolute;top:0;left:0;width:100%;transition:1s;cursor: pointer;}
