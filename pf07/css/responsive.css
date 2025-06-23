@@ -1,0 +1,109 @@
+/* 기본 박스 구조 정리 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#wrap {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 반응형 레이아웃 */
+@media (max-width: 1200px) {
+  .main_right {
+    margin-left: 0;
+    padding: 0 2rem;
+  }
+
+  #board .container {
+    flex-direction: column;
+  }
+
+  .magazineWrap {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .magazineWrap > div {
+    width: 100% !important;
+  }
+
+  .Newsroom {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  #hd {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #main_visual figure {
+    height: 300px;
+  }
+
+  #main_visual h2 {
+    font-size: 2rem;
+  }
+
+  #main_visual p {
+    font-size: 1rem;
+  }
+
+  .left_logo {
+    position: static;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .gnb-menu {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer_info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fif_box {
+    width: 100%;
+  }
+
+  .fif01 {
+    width: 100% !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+
+  #main_visual h2 {
+    font-size: 1.5rem;
+  }
+
+  #main_visual p {
+    font-size: 0.9rem;
+  }
+
+  .news_title,
+  .list li a {
+    font-size: 1rem;
+  }
+
+  .footer_logo {
+    font-size: 0.8rem;
+  }
+}
